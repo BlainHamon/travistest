@@ -349,13 +349,13 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B4B3F2BA20D313DC00ABD582 /* mobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mobile-Bridging-Header.h"; sourceTree = "<group>"; };
 		B4B3F2E020D313DE00ABD582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../HelloWorld/HelloWorld/Assets.xcassets; sourceTree = "<group>"; };
-		B4B3F2E120D313DE00ABD582 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../../../HelloWorld/HelloWorld/FirstViewController.swift; sourceTree = "<group>"; };
-		B4B3F2E220D313DE00ABD582 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../../../HelloWorld/HelloWorld/SecondViewController.swift; sourceTree = "<group>"; };
-		B4B3F2E320D313DF00ABD582 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../HelloWorld/HelloWorld/AppDelegate.swift; sourceTree = "<group>"; };
+		B4B3F2E120D313DE00ABD582 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = mobile/FirstViewController.swift; sourceTree = "<group>"; };
+		B4B3F2E220D313DE00ABD582 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = mobile/SecondViewController.swift; sourceTree = "<group>"; };
+		B4B3F2E320D313DF00ABD582 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = mobile/AppDelegate.swift; sourceTree = "<group>"; };
 		B4B3F2E520D313DF00ABD582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../HelloWorld/HelloWorld/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4B3F2EB20D3162500ABD582 /* mobileTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mobileTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B4B3F2EC20D3162500ABD582 /* mobile-tvOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mobile-tvOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		B4B3F2ED20D3162600ABD582 /* HelloWorldTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelloWorldTests.swift; path = ../../../../HelloWorld/HelloWorldTests/HelloWorldTests.swift; sourceTree = "<group>"; };
+		B4B3F2ED20D3162600ABD582 /* HelloWorldTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
