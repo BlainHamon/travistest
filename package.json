@@ -1,0 +1,65 @@
+{
+  "name": "travistest",
+  "version": "0.0.0",
+  "description": "foo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blainhamon/travistest.git"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
+  },
+  "scripts": {
+    "client": "node packages/client/index.js",
+    "coverage": "nyc npm test",
+    "lint": "standard",
+    "router": "node packages/router/index.js",
+    "test": "mocha --ui bdd --reporter spec --recursive spec"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "lerna": "^2.11.0",
+    "mocha": "^5.1.1",
+    "nyc": "11.7.1",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "ignore": [],
+    "globals": [
+      "describe",
+      "it",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach"
+    ]
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 99,
+    "statements": 99,
+    "functions": 99,
+    "branches": 99,
+    "include": [
+      "src/server/**/*.js"
+    ],
+    "exclude": [
+      "spec/**/*.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
+    "require": [],
+    "extension": [],
+    "cache": true,
+    "all": true,
+    "report-dir": "./coverage"
+  }
+}
