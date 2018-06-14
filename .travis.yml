@@ -1,5 +1,5 @@
 os: osx
 language: objective-c
 osx_image: xcode9.3
-xcode_project: HelloWorld.xcodeproj # path to your xcodeproj folder
+xcode_project: HelloWorld/HelloWorld.xcodeproj # path to your xcodeproj folder
 xcode_scheme: HelloWorld
