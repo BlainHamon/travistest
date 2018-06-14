@@ -14,8 +14,15 @@
 fastlane_version "2.61.0"
 
 default_platform :ios
-ENV['GYM_PROJECT'] = "HelloWorld/HelloWorld.xcodeproj"
-ENV['SCAN_PROJECT'] = "HelloWorld/HelloWorld.xcodeproj"
+iosProject = "packages/mobile/ios/mobile.xcodeproj"
+iosScheme = "mobile"
+# ENV['GYM_PROJECT'] = "HelloWorld/HelloWorld.xcodeproj"
+# ENV['SCAN_PROJECT'] = "HelloWorld/HelloWorld.xcodeproj"
+
+ENV['GYM_PROJECT'] = iosProject
+ENV['SCAN_PROJECT'] = iosProject
+ENV['GYM_SCHEME'] = iosScheme
+ENV['SCAN_SCHEME'] = iosScheme
 
 platform :ios do
   before_all do
