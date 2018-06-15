@@ -6,7 +6,6 @@ before_install:
  - brew cask install fastlane
  - brew install yarn
 script:
- - yarn install
  - cd $TRAVIS_BUILD_DIR/packages/mobile/
  - yarn install
  - cd $TRAVIS_BUILD_DIR
