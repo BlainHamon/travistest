@@ -2,4 +2,9 @@ os: osx
 language: objective-c
 osx_image: xcode9.3
 before_install: brew cask install fastlane
-script: fastlane ios test
+script:
+ - yarn install
+ - cd $TRAVIS_BUILD_DIR/packages/mobile/
+ - yarn install
+ - cd $TRAVIS_BUILD_DIR
+ - fastlane ios test

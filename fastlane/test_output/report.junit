@@ -1,7 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='HelloWorldTests.xctest' tests='2' failures='0'>
-  <testsuite name='HelloWorldTests.HelloWorldTests' tests='2' failures='0'>
-    <testcase classname='HelloWorldTests.HelloWorldTests' name='testExample' time='0.001'/>
-    <testcase classname='HelloWorldTests.HelloWorldTests' name='testPerformanceExample' time='0.300'/>
+<testsuites name='mobileTests.xctest' tests='3' failures='1'>
+  <testsuite name='mobileTests.HelloWorldTests' tests='2' failures='0'>
+    <testcase classname='mobileTests.HelloWorldTests' name='testExample' time='0.001'/>
+    <testcase classname='mobileTests.HelloWorldTests' name='testPerformanceExample' time='5.143'/>
+  </testsuite>
+  <testsuite name='mobileTests' tests='1' failures='1'>
+    <testcase classname='mobileTests' name='testRendersWelcomeScreen'>
+      <failure message='((foundElement) is true) failed - Couldn&apos;t find element with text &apos;Welcome to React Native!&apos; in 600 seconds'>packages/mobile/ios/mobileTests/mobileTests.m:64</failure>
+    </testcase>
   </testsuite>
 </testsuites>

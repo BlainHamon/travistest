@@ -110,7 +110,9 @@
       </section>
       <section class="right">
         <section id="counters">
-          <h2 id="test-count"><span class="number">2</span> tests</h2>
+          <h2 id="test-count"><span class="number">3</span> tests</h2>
+          
+            <h2 id="fail-count"><span class="number">1</span> failures</h2>
           
         </section>
         <section id="segment-bar">
@@ -121,9 +123,9 @@
     <section id="test-suites">
       
         
-        <section class="test-suite passing" id="HelloWorldTests.HelloWorldTests">
+        <section class="test-suite passing" id="mobileTests.HelloWorldTests">
           <section class="heading" onclick="toggleTests(this);">
-            <h3 class="title">HelloWorldTests.HelloWorldTests</h3>
+            <h3 class="title">mobileTests.HelloWorldTests</h3>
           </section>
           <section class="tests">
             <table>
@@ -143,11 +145,49 @@
               <tr class="test passing odd"  onclick="toggleDetails('testPerformanceExample');">
                 <td>
                   
-                    <h3 class="time">0.300s</h3>
+                    <h3 class="time">5.143s</h3>
                   
                 </td>
                 <td><h3 class="title">testPerformanceExample</h3></td>
               </tr>
+              
+            
+            </table>
+          </section>
+        </section>
+      
+        
+        <section class="test-suite failing" id="mobileTests">
+          <section class="heading" onclick="toggleTests(this);">
+            <h3 class="title">mobileTests</h3>
+          </section>
+          <section class="tests">
+            <table>
+            
+              
+              <tr class="test failing "  onclick="toggleDetails('testRendersWelcomeScreen');">
+                <td>
+                  
+                </td>
+                <td><h3 class="title">testRendersWelcomeScreen</h3></td>
+              </tr>
+              
+                <tr class="details failing testRendersWelcomeScreen">
+                  <td></td>
+                  <td>
+                    
+                      <section class="test-detail reason">((foundElement) is true) failed - Couldn't find element with text 'Welcome to React Native!' in 600 seconds</section>
+                    
+                    
+                      <section class="test-detail snippet">  <span class="n">RCTSetLogFunction</span><span class="p">(</span><span class="n">RCTDefaultLogFunction</span><span class="p">);</span>
+
+  <span class="n">XCTAssertNil</span><span class="p">(</span><span class="n">redboxError</span><span class="p">,</span> <span class="s">@"RedBox error: %@"</span><span class="p">,</span> <span class="n">redboxError</span><span class="p">);</span>
+</section>
+                      <section class="test-detail">/Users/blain/codevalhalla/experimental/travistest/packages/mobile/ios/mobileTests/mobileTests.m:64</section>
+                    
+                    
+                  </td>
+                </tr>
               
             
             </table>
