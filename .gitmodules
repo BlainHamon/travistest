@@ -1,0 +1,6 @@
+[submodule "packages/mobile/deps/djinni"]
+	path = packages/mobile/deps/djinni
+	url = https://github.com/dropbox/djinni.git
+[submodule "packages/mobile/deps/sqlite_orm"]
+	path = packages/mobile/deps/sqlite_orm
+	url = git@github.com:fnc12/sqlite_orm.git
