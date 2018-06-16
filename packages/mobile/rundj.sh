@@ -28,6 +28,7 @@ cpp_out="$base_dir/generated-src/cpp"
 objc_out="$base_dir/generated-src/objc"
 jni_out="$base_dir/generated-src/jni"
 java_out="$base_dir/generated-src/java/$java_dir"
+djinni_in="$base_dir/$djinni_file"
 
 # clean generated src dirs
 rm -rf $cpp_out

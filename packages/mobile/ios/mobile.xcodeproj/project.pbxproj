@@ -43,6 +43,15 @@
 		B4B3F2EA20D313E000ABD582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B3F2E420D313DF00ABD582 /* Main.storyboard */; };
 		B4B3F2EE20D3162600ABD582 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F2ED20D3162600ABD582 /* HelloWorldTests.swift */; };
 		B4B3F2EF20D3162600ABD582 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F2ED20D3162600ABD582 /* HelloWorldTests.swift */; };
+		B4CDC6A320D46A9400FF01A2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CDC6A220D46A9400FF01A2 /* libsqlite3.0.tbd */; };
+		B4CDC6AB20D46C5D00FF01A2 /* HWHelloWorld+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = B4CDC6AA20D46C5D00FF01A2 /* HWHelloWorld+Private.mm */; };
+		B4CDC6AF20D46FBD00FF01A2 /* hello_world_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4CDC6AE20D46FBC00FF01A2 /* hello_world_impl.cpp */; };
+		B4CDC6B720D471B900FF01A2 /* DJIProxyCaches.mm in Sources */ = {isa = PBXBuildFile; fileRef = B4CDC6B320D471B900FF01A2 /* DJIProxyCaches.mm */; };
+		B4CDC6B820D471B900FF01A2 /* DJIError.mm in Sources */ = {isa = PBXBuildFile; fileRef = B4CDC6B520D471B900FF01A2 /* DJIError.mm */; };
+		B4CDC6C520D4860F00FF01A2 /* HWTodoList+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = B4CDC6C120D4860F00FF01A2 /* HWTodoList+Private.mm */; };
+		B4CDC6C620D4860F00FF01A2 /* HWTodo.mm in Sources */ = {isa = PBXBuildFile; fileRef = B4CDC6C320D4860F00FF01A2 /* HWTodo.mm */; };
+		B4CDC6C720D4860F00FF01A2 /* HWTodo+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = B4CDC6C420D4860F00FF01A2 /* HWTodo+Private.mm */; };
+		B4CDC6CA20D4884200FF01A2 /* todo_list_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4CDC6C820D4884200FF01A2 /* todo_list_impl.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -356,6 +365,31 @@
 		B4B3F2EB20D3162500ABD582 /* mobileTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mobileTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B4B3F2EC20D3162500ABD582 /* mobile-tvOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mobile-tvOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B4B3F2ED20D3162600ABD582 /* HelloWorldTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		B4CDC6A220D46A9400FF01A2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B4CDC6A620D46C5D00FF01A2 /* hello_world.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hello_world.hpp; sourceTree = "<group>"; };
+		B4CDC6A820D46C5D00FF01A2 /* HWHelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHelloWorld.h; sourceTree = "<group>"; };
+		B4CDC6A920D46C5D00FF01A2 /* HWHelloWorld+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HWHelloWorld+Private.h"; sourceTree = "<group>"; };
+		B4CDC6AA20D46C5D00FF01A2 /* HWHelloWorld+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "HWHelloWorld+Private.mm"; sourceTree = "<group>"; };
+		B4CDC6AD20D46FBC00FF01A2 /* hello_world_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hello_world_impl.hpp; sourceTree = "<group>"; };
+		B4CDC6AE20D46FBC00FF01A2 /* hello_world_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hello_world_impl.cpp; sourceTree = "<group>"; };
+		B4CDC6B120D471B900FF01A2 /* DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJICppWrapperCache+Private.h"; sourceTree = "<group>"; };
+		B4CDC6B220D471B900FF01A2 /* DJIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJIError.h; sourceTree = "<group>"; };
+		B4CDC6B320D471B900FF01A2 /* DJIProxyCaches.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DJIProxyCaches.mm; sourceTree = "<group>"; };
+		B4CDC6B420D471B900FF01A2 /* DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJIObjcWrapperCache+Private.h"; sourceTree = "<group>"; };
+		B4CDC6B520D471B900FF01A2 /* DJIError.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DJIError.mm; sourceTree = "<group>"; };
+		B4CDC6B620D471B900FF01A2 /* DJIMarshal+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DJIMarshal+Private.h"; sourceTree = "<group>"; };
+		B4CDC6BB20D483B100FF01A2 /* sqlite_orm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite_orm.h; sourceTree = "<group>"; };
+		B4CDC6BC20D4860500FF01A2 /* todo_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = todo_list.hpp; sourceTree = "<group>"; };
+		B4CDC6BD20D4860500FF01A2 /* todo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = todo.hpp; sourceTree = "<group>"; };
+		B4CDC6BE20D4860E00FF01A2 /* HWTodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTodo.h; sourceTree = "<group>"; };
+		B4CDC6BF20D4860F00FF01A2 /* HWTodo+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HWTodo+Private.h"; sourceTree = "<group>"; };
+		B4CDC6C020D4860F00FF01A2 /* HWTodoList+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HWTodoList+Private.h"; sourceTree = "<group>"; };
+		B4CDC6C120D4860F00FF01A2 /* HWTodoList+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "HWTodoList+Private.mm"; sourceTree = "<group>"; };
+		B4CDC6C220D4860F00FF01A2 /* HWTodoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTodoList.h; sourceTree = "<group>"; };
+		B4CDC6C320D4860F00FF01A2 /* HWTodo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HWTodo.mm; sourceTree = "<group>"; };
+		B4CDC6C420D4860F00FF01A2 /* HWTodo+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "HWTodo+Private.mm"; sourceTree = "<group>"; };
+		B4CDC6C820D4884200FF01A2 /* todo_list_impl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = todo_list_impl.cpp; sourceTree = "<group>"; };
+		B4CDC6C920D4884200FF01A2 /* todo_list_impl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = todo_list_impl.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +405,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4CDC6A320D46A9400FF01A2 /* libsqlite3.0.tbd in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -540,6 +575,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4CDC6A220D46A9400FF01A2 /* libsqlite3.0.tbd */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 			);
 			name = Frameworks;
@@ -594,6 +630,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				B4CDC6BA20D483B100FF01A2 /* sqlite_orm */,
+				B4CDC6B020D471B900FF01A2 /* objc */,
+				B4CDC6AC20D46FBC00FF01A2 /* shared */,
+				B4CDC6A420D46B6800FF01A2 /* generated */,
 				13B07FAE1A68108700A75B9A /* mobile */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* mobileTests */,
@@ -623,6 +663,79 @@
 				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B4CDC6A420D46B6800FF01A2 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				B4CDC6A520D46C5D00FF01A2 /* cpp */,
+				B4CDC6A720D46C5D00FF01A2 /* objc */,
+			);
+			path = generated;
+			sourceTree = "<group>";
+		};
+		B4CDC6A520D46C5D00FF01A2 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				B4CDC6BC20D4860500FF01A2 /* todo_list.hpp */,
+				B4CDC6BD20D4860500FF01A2 /* todo.hpp */,
+				B4CDC6A620D46C5D00FF01A2 /* hello_world.hpp */,
+			);
+			name = cpp;
+			path = "../../generated-src/cpp";
+			sourceTree = "<group>";
+		};
+		B4CDC6A720D46C5D00FF01A2 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				B4CDC6BE20D4860E00FF01A2 /* HWTodo.h */,
+				B4CDC6C320D4860F00FF01A2 /* HWTodo.mm */,
+				B4CDC6BF20D4860F00FF01A2 /* HWTodo+Private.h */,
+				B4CDC6C420D4860F00FF01A2 /* HWTodo+Private.mm */,
+				B4CDC6C220D4860F00FF01A2 /* HWTodoList.h */,
+				B4CDC6C020D4860F00FF01A2 /* HWTodoList+Private.h */,
+				B4CDC6C120D4860F00FF01A2 /* HWTodoList+Private.mm */,
+				B4CDC6A820D46C5D00FF01A2 /* HWHelloWorld.h */,
+				B4CDC6A920D46C5D00FF01A2 /* HWHelloWorld+Private.h */,
+				B4CDC6AA20D46C5D00FF01A2 /* HWHelloWorld+Private.mm */,
+			);
+			name = objc;
+			path = "../../generated-src/objc";
+			sourceTree = "<group>";
+		};
+		B4CDC6AC20D46FBC00FF01A2 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				B4CDC6AD20D46FBC00FF01A2 /* hello_world_impl.hpp */,
+				B4CDC6AE20D46FBC00FF01A2 /* hello_world_impl.cpp */,
+				B4CDC6C820D4884200FF01A2 /* todo_list_impl.cpp */,
+				B4CDC6C920D4884200FF01A2 /* todo_list_impl.hpp */,
+			);
+			name = shared;
+			path = ../shared;
+			sourceTree = "<group>";
+		};
+		B4CDC6B020D471B900FF01A2 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				B4CDC6B120D471B900FF01A2 /* DJICppWrapperCache+Private.h */,
+				B4CDC6B220D471B900FF01A2 /* DJIError.h */,
+				B4CDC6B320D471B900FF01A2 /* DJIProxyCaches.mm */,
+				B4CDC6B420D471B900FF01A2 /* DJIObjcWrapperCache+Private.h */,
+				B4CDC6B520D471B900FF01A2 /* DJIError.mm */,
+				B4CDC6B620D471B900FF01A2 /* DJIMarshal+Private.h */,
+			);
+			name = objc;
+			path = "../deps/djinni/support-lib/objc";
+			sourceTree = "<group>";
+		};
+		B4CDC6BA20D483B100FF01A2 /* sqlite_orm */ = {
+			isa = PBXGroup;
+			children = (
+				B4CDC6BB20D483B100FF01A2 /* sqlite_orm.h */,
+			);
+			name = sqlite_orm;
+			path = ../deps/sqlite_orm/include/sqlite_orm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1145,11 +1258,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4CDC6C720D4860F00FF01A2 /* HWTodo+Private.mm in Sources */,
+				B4CDC6AF20D46FBD00FF01A2 /* hello_world_impl.cpp in Sources */,
+				B4CDC6B720D471B900FF01A2 /* DJIProxyCaches.mm in Sources */,
+				B4CDC6C520D4860F00FF01A2 /* HWTodoList+Private.mm in Sources */,
+				B4CDC6AB20D46C5D00FF01A2 /* HWHelloWorld+Private.mm in Sources */,
 				B4B3F2E820D313E000ABD582 /* SecondViewController.swift in Sources */,
 				B4B3F2E720D313E000ABD582 /* FirstViewController.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				B4B3F2E920D313E000ABD582 /* AppDelegate.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B4CDC6B820D471B900FF01A2 /* DJIError.mm in Sources */,
+				B4CDC6CA20D4884200FF01A2 /* todo_list_impl.cpp in Sources */,
+				B4CDC6C620D4860F00FF01A2 /* HWTodo.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

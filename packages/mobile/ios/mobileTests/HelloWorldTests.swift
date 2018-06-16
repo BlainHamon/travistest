@@ -22,6 +22,11 @@ class HelloWorldTests: XCTestCase {
     }
     
     func testExample() {
+      let helloWorld = HWHelloWorld.create()
+
+      XCTAssert(helloWorld?.getHelloWorld().hasPrefix("Hello World") ?? false)
+        print("Helloworld: \(helloWorld?.getHelloWorld())")
+
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

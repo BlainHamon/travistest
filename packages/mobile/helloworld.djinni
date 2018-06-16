@@ -2,3 +2,17 @@ hello_world = interface +c {
   static create(): hello_world;
   get_hello_world(): string;
 }
+
+todo = record {
+    id: i32;
+    label: string;
+    completed: i32;
+}
+
+todo_list = interface +c {
+    static create_with_path(path: string): todo_list;
+    get_todos(): list<todo>;
+    add_todo(label: string): i32;
+    update_todo_completed(id: i32, completed: i32): bool;
+    delete_todo(id: i32): bool;
+}
